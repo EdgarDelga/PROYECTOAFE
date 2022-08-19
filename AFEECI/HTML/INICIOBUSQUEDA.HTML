@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/INICIOBUSQUEDA.css">
+    <link rel="shortcut icon" href="/IMAGENES/logotipo-affeci.png">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,200&display=swap" rel="stylesheet">
+    <title>Inicio</title>
+</head>
+<body>   
+<nav  class="navbar">
+    <div class="logo">
+        <a href="/HTML/index.html">
+        <img src="/IMAGENES/logotipo-affeci.png" alt="" class="logo" width="450rem">
+        </a>
+    </div>    
+    <div>
+    <div class="botonorden"> 
+        <button class="boton"> <a href="/HTML/NUEVOUSUARIO.html" class="volver">Nuevo Usuario</button></a>
+    </div>
+    </div>
+    <div class="buscar">        
+        <input type="text" name="" id="txt1" class="buscar" placeholder="Buscar..."> 
+    </div>
+    <div class="iconolupa">
+        <a href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+    </div>
+    <div>
+        <a href="#">
+            <i class="fa-solid fa-user"></i>
+        </a>
+    </div>
+</nav> 
+<br><br><br>
+
+<div class="orden2">
+<div class="starttxt">
+    Bienvenid@ Doctor: Nombre Apellidos
+</div>
+<div>
+    <button class="boton2">Exportar datos a PDF</button>
+</div>
+</div>
+<hr>
+
+<div class="lista">
+ <div class="encabezado">
+
+</div>
+<a href="#"></a>
+<div class="datosorden">
+    <div class="datos" id="datos">
+
+        <h2 id="datos">Paciente: Ejemplo nombre</h2>
+        <h2 id="datos">Edad: x</h2>
+        <h2 id="datos">Sexo: F</h2>
+        <h2 id="datos">Ultima Consulta: xx/xx/XXXX</h2>
+        <h2 id="datos">Domicilio: Example-text</h2>
+        <h2 id="datos">Telefono: xxxxxxxxxx</h2>
+    </div>
+    <div class="datos2" id="datos2" >
+        <a href="/HTML/EXAMENGINECOLOGICO.html" class="textocuestionarios">Examen ginecológico</a>
+        <a href="/HTML/ANTECEDENTESHF.html" class="textocuestionarios">Antecedentes Heredo Familiares</a>
+        <a href="/HTML/ANTECEDENTESP.html" class="textocuestionarios">Antecedentes personales</a>
+        <a href="/HTML/EXPLORACIONFISICA.html" class="textocuestionarios">Exploración física</a>
+        <a href="/HTML/ESTUDIOSQUIMICOS.html" class="textocuestionarios">Resultados de estudios químicos</a>
+        <a href="/HTML/DIAGNOSTICO.html" class="textocuestionarios">Diagnostico</a>
+        <a href="/HTML/INDICADORESTERAPEUTICOS.html" class="textocuestionarios">Indicadores terapeuticos</a>
+        <a href="/HTML/SEGUIMIENTO.html" class="textocuestionarios">Seguimiento</a>
+    </div>
+    <div class="botones">
+        <button class="boton3"><a href="/HTML/FICHADECONSULTA.html" class="volver">Ficha de Identificación </a></button>
+        <button class="boton3" onclick="ocultar(); mostrar();"><a href="#" class="volver">Realizar Consulta </a></button>
+        <button class="boton3"><a href="/HTML/INICIO.html" class="volver">Consultar datos de paciente </a></button>
+        <button class="boton3"><a href="/HTML/INICIO.html" class="volver">Lista de consultas de pacientes </a></button>
+    </div>
+</div>
+</div>
+<div class="final"></div>
+    <script src="/JS/INICIOBUSQUEDA.js"></script>
+    <script src="https://kit.fontawesome.com/fa0201b5d1.js" crossorigin="anonymous" ></script>
+</body>
+</html>

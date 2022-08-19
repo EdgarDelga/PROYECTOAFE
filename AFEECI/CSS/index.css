@@ -1,0 +1,225 @@
+:root{
+
+--color-texto: ;
+--color-texto-cuadros: rgb(67, 78, 97);
+--color-titulos: rgb(25, 48, 69);
+--color-sombras: rgb(119, 119, 119);
+--color-fondo-textos:rgb(166, 219, 242) ;
+--color-fondo-botones:rgb(120, 161, 211)  ;
+--color-fondo-botones-hoover: rgb(69, 105, 149);
+--color-fondo-botones-active: rgb(51, 79, 112);
+--color-cuadro: rgb(244, 245, 250) ;
+--color-texto-hoover: rgb(244, 245, 250);
+--color-texto-a: rgb(55,51,243);
+
+--imagen-imagenINICIARSESION01: ;
+
+
+--fuentes-Textos:'Poppins', sans-serif;
+}
+
+.body{
+
+background-image: url(/IMAGENES/imagenINICIARSESION01.jpg);
+}
+
+.CUADROINICIARSESION{
+    display: flex;
+    flex-direction: column;
+    width: 38rem;
+    padding: 2rem;
+    border-radius: .3rem;
+    height: 26rem;
+    margin: 2rem;
+    background-color: var(--color-cuadro);
+    box-shadow: var(--color-sombras) 0rem .4rem .4rem;
+}
+
+.logo{
+    padding-top: 2rem;
+    padding-left: 4rem;
+}
+
+.Cuadro{
+    padding-left: 13rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.IniciarSesionTxt{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    padding-left: 11rem;
+    padding-bottom: 1.5rem;
+    color: var(--color-titulos);
+    text-shadow: var(--color-sombras) 0rem .1rem .2rem;
+}
+
+.Email-box{
+    font-family: var(--fuentes-Textos); 
+    width: auto;
+    height: auto;
+    width: 25rem;
+    height: 3rem;
+    margin-right: 1rem;
+    border: none;
+    outline:  none;
+    border-radius: 10px;
+    background-color:var(--color-fondo-textos);
+    font-size: 20px;
+    color: var(--color-texto-cuadros);
+    
+}
+
+.EmailTxt{
+    font-family: var(--fuentes-Textos); 
+    font-size: 24px;
+    color: var(--color-titulos);
+    padding-left: .5rem;
+    text-shadow: var(--color-sombras) 0rem .1rem .2rem;
+}
+
+.ContraseñaTxt{
+    padding-top: .5rem;
+    font-family: var(--fuentes-Textos); 
+    font-size: 24px;
+    color: var(--color-titulos);
+    padding-left: .5rem;
+    text-shadow: var(--color-sombras) 0rem .1rem .2rem;
+}
+
+.Password-box{
+    font-family: var(--fuentes-Textos); 
+    width: auto;
+    height: auto;
+    width: 25rem;
+    height: 3rem;
+    margin-right: 1rem;
+    border: none;
+    outline:  none;
+    border-radius: 10px;
+    background-color:var(--color-fondo-textos);
+    font-size: 20px;
+    color: var(--color-texto-cuadros);
+}
+
+.Textoscuadros{
+    padding-left:6.5rem ;
+    
+}
+
+.boton{
+    font-family: var(--fuentes-Textos);
+    margin-top: 1rem;
+    color: var(--color-titulos);
+    background-color: var(--color-fondo-botones);
+    border-radius: .5rem;
+    border: none;
+    padding: .5rem;
+    font-size: 1rem;
+    padding-right: 7.4rem;
+    padding-left: 7.5rem;
+    font-size: 24px;
+    box-shadow:var(--color-sombras) 0rem .1rem .2rem ;
+}
+
+.boton:hover{
+    background-color:var(--color-fondo-botones-hoover);
+    color: var(--color-texto-hoover);
+}
+
+.boton:active{
+    background-color:var(--color-fondo-botones-active);
+
+}
+
+.botonorden{
+    padding-left: 6.6rem;
+    padding-top: 1rem;
+    
+}
+
+.txtfinal{
+    font-family: var(--fuentes-Textos);
+    padding-left: 6.6rem;
+    padding-top: 1.5rem;
+    font-size: 19px
+}
+
+.registrar{
+    text-decoration: none;   
+    color:var(--color-texto-a) ;
+}
+
+.registrar:hover{
+    color: var(--color-fondo-botones-hoover);
+
+}
+
+.registrar:active{
+    color: var(--color-fondo-botones-active);
+}
+
+@media only screen and (max-width: 1600px) {
+
+    .CUADROINICIARSESION{
+        padding-left: -5rem;
+        padding-right: 0rem;
+        padding-bottom: 5rem;
+    }
+
+    .Cuadro{
+        padding-left: 0;
+    }
+
+    .boton{
+        padding: 1rem;
+    }
+    .txtfinal{
+        padding-right: 0rem;
+    }
+    
+    .IniciarSesionTxt{
+     padding-left: 5rem;
+    }
+    .Textoscuadros{
+        padding-left: 5rem;
+    }  
+    .botonorden{
+        padding-left: 5rem;
+    }
+    .txtfinal{
+        padding-left: 5rem;
+    }
+}
+
+@media only screen and (max-width: 1050px){
+    .CUADROINICIARSESION{
+        margin-left: 1rem;
+        width: 30rem;
+    }
+    .logo{
+        padding-left: 8rem;
+    }
+    .orden{
+        flex-direction: column-reverse;
+        padding-left: 0rem;
+    }
+    .IniciarSesionTxt{
+        padding-left: 0rem;
+    }
+    .Textoscuadros{
+        padding-left: 0rem;
+    }
+    .botonorden{
+        padding-left: 0rem;
+    }
+    .txtfinal{
+        padding-left: 0rem;
+    }
+    .logo{
+        padding-left: 1rem;
+    }
+}
+

@@ -1,0 +1,243 @@
+:root{
+
+    --color-texto:rgb(65, 64, 64) ;
+    --color-texto-cuadros: rgb(220, 228, 241);
+    --color-titulos: rgb(25, 48, 69);
+    --color-sombras: rgb(119, 119, 119);
+    --color-fondo-textos:rgb(166, 219, 242) ;
+    --color-fondo-botones:rgb(120, 161, 211)  ;
+    --color-fondo-botones-hoover: rgb(69, 105, 149);
+    --color-fondo-botones-active: rgb(51, 79, 112);
+    --color-cuadro: rgb(244, 245, 250) ;
+    --color-texto-hoover: rgb(244, 245, 250);
+    --color-texto-a: rgb(55,51,243);
+    --color-boton-morado: rgb(193,120,211); 
+    --color-fondo-botones-morado-hoover:rgb(152, 93, 167);
+    --color-fondo-botones-morado-active:rgb(112, 70, 122);
+    --color-fondo-texto: rgb(236, 231, 231);
+    --color-fondo-botones-verde: rgb(54, 161, 68);
+    --color-fondo-botones-verde-hover:rgb(42, 122, 52);
+    --color-fondo-botones-verde-active:rgb(25, 71, 31);
+    
+    --imagen-imagenINICIARSESION01: ;
+    
+    --fuentes-datos:'Libre Franklin', sans-serif;
+    --fuentes-Textos:'Poppins', sans-serif;
+    }
+
+    .buscar{
+        width: 18rem;
+        height: 3rem;
+        background: rgb(232, 245, 253);
+        border:0em 1rem;
+        font-size: 15pt;
+        float: left;
+        color: var(--color-fondo-botones);
+        border-radius: .6rem;
+            
+    }
+
+    .navbar{
+        display: flex;
+        align-items:center;
+        flex-wrap: nowrap;
+        justify-content:center;
+    }
+
+    .iconolupa{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 2rem;
+        height: 1rem;
+    }
+
+    .starttxt{
+        font-family: var(--fuentes-Textos);
+        font-weight: 600;
+        color: var(--color-titulos);
+    }
+
+    .boton{
+        font-family: var(--fuentes-Textos);
+        color: var(--color-titulos);
+        background-color: var(--color-fondo-botones);
+        border-radius: .5rem;
+        border: none;
+        padding: 1rem;
+        font-size: 1rem;
+        margin-left: 20rem;
+        margin-right:4rem ;
+        font-size: 16px;
+        box-shadow:var(--color-sombras) 0rem .1rem .2rem ;
+        font-weight: 600;
+    }
+    
+    .orden2{
+        display: flex;
+        align-items:center;
+        justify-content:space-around;
+    }
+
+    .boton2{
+        font-family: var(--fuentes-Textos);
+        color: var(--color-titulos);
+        background-color: var(--color-boton-morado);
+        border-radius: .5rem;
+        border: none;
+        padding: 1rem;
+        font-size: 1rem;
+        font-size: 16px;
+        box-shadow:var(--color-sombras) 0rem .1rem .2rem ;
+        font-weight: 600;
+    }
+
+    .boton:hover{
+        background-color: var(--color-fondo-botones-hoover);
+        color: aliceblue;
+    }
+
+    .boton:active{
+        background-color: var(--color-fondo-botones-active);
+        color: aliceblue;
+    }
+
+    .boton2:hover{
+        background-color: var(--color-fondo-botones-morado-hoover);
+        color: aliceblue;
+    }
+    .boton2:active{
+        background-color: var(--color-fondo-botones-morado-active);
+        color: aliceblue;
+    }
+
+    .encabezado{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-family: var(--fuentes-Textos);
+        color: var(--color-titulos);
+
+    }
+
+    .datos{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-family: var(--fuentes-datos);
+        color: var(--color-titulos);
+    }
+
+    .fa-magnifying-glass{
+        padding-left: 1rem;
+    }
+
+    .formulario{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .ordencuadros{
+        display: flex;
+        flex-direction: column;
+        font-family: var(--fuentes-Textos);
+        color: var(--color-texto);
+        align-items:baseline;
+    }
+
+    .txtarea{
+        width:20rem;
+        height: 2.5rem;
+        background: var(--color-fondo-texto);
+        border:0em 1rem;
+        font-size: 15pt;
+        float: left;
+        color: var(--color-texto);
+        border-radius: .6rem;
+        padding-right: 12rem;
+    }
+
+    .txtarea1{
+        width: 33rem;
+        height: 2.5rem;
+        background: var(--color-fondo-texto);
+        border:0em 1rem;
+        font-size: 15pt;
+        float: left;
+        color: var(--color-texto);
+        border-radius: .6rem;
+    }
+
+    .ordencuadros1{
+        display: flex;
+        flex-direction: column;
+        font-family: var(--fuentes-Textos);
+        color: var(--color-texto);
+        align-items:baseline;
+        margin-right: 32rem;
+    }
+
+    .ordencuadros2{
+        display: flex;
+        justify-content: center;
+        margin-right: 5rem;
+    }
+    
+    .ordencuadros3{
+        width: 30rem;
+        display: flex;
+        flex-direction: column;
+        font-family: var(--fuentes-Textos);
+        color: var(--color-texto);
+        align-items:baseline;
+        margin-right: 35rem;
+    }
+
+    .boton3{
+        font-family: var(--fuentes-Textos);
+        color: var(--color-titulos);
+        background-color: var(--color-fondo-botones-verde);
+        border-radius: .5rem;
+        border: none;
+        padding: 1rem;
+        font-size: 1rem;
+        font-size: 16px;
+        box-shadow:var(--color-sombras) 0rem .1rem .2rem ;
+        font-weight: 600;
+    }
+
+    .boton3:hover{
+        background-color: var(--color-fondo-botones-verde-hover);
+    }
+
+    .boton3:active{
+        background-color: var(--color-fondo-botones-verde-active);
+        color: aliceblue;
+    }
+
+    .fin{
+        height: 5rem;
+    }
+
+    .volver{
+        text-decoration: none;
+
+    }
+
+  .textarea2{
+    width: 78rem;
+    height: 12rem;
+    background: var(--color-fondo-texto);
+    border:0em 1rem;
+    font-size: 15pt;
+    float: left;
+    color: var(--color-texto);
+    border-radius: .6rem;
+    padding-right: 12rem;
+    resize: none;
+  }
+
+  .formulario2{
+    display: flex;
+    margin-left: 12.5rem;
+  }
